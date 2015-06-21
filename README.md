@@ -1,3 +1,1 @@
-# Getting-and-Cleaning-Data
-
-#Course Project Submission
+# Course Project Submission
