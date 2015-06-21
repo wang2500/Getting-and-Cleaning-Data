@@ -42,6 +42,6 @@ combine<- cbind(combine1, combine2, combine3)
 
 # Step 5
 averagedata <- ddply(combine, .(subject, activity), function(x) colMeans(x[, 1:66]))
-write.table(averagedata, "averagedata.txt")
+write.table(averagedata, "averagedata.txt", row.names=FALSE)
 View(averagedata)
 
