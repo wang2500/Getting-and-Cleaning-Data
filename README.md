@@ -8,15 +8,15 @@
 
 ###According to the directions given by the instructor, I follow the project steps.
 
-####Step 1. Merge the data
-####Step 2. Extract parts of the data
-####Step 3/Step 4. Assign names to the raw data
-####Step 5. Establish tidy data set
+Step 1. Merge the data
+Step 2. Extract parts of the data
+Step 3/Step 4. Assign names to the raw data
+Step 5. Establish tidy data set
 
-####combine 1: the combination of x_train and x_test given by the UCI HAR Dataset.zip
-####combine 2: the combination of y_train and y_test given by the UCI HAR Dataset.zip
-####combine 3: the combination of subject_train and subject_test by the UCI HAR Dataset.zip
-####combine: the combination of combine1,combine2, and combine3
+combine 1: the combination of x_train and x_test given by the UCI HAR Dataset.zip
+combine 2: the combination of y_train and y_test given by the UCI HAR Dataset.zip
+combine 3: the combination of subject_train and subject_test by the UCI HAR Dataset.zip
+combine: the combination of combine1,combine2, and combine3
 
 
 ## run_analysis.R
