@@ -1,13 +1,15 @@
 ##Coursera Getting and Cleaning Data project submission
 
 #step1
-
+##import x_train data from the UCI HAR zip
 xtrain <- read.table("./UCI HAR Dataset/train/X_train.txt")
+##import y_train data from the UCI HAR zip
 ytrain <- read.table("./UCI HAR Dataset/train/y_train.txt")
-
+##import x_test data from the UCI HAR zip
 xtest <- read.table("./UCI HAR Dataset/test/X_test.txt")
+##import y_train data from the UCI HAR zip
 ytest <- read.table("./UCI HAR Dataset/test/y_test.txt")
-
+#combine x_train and x_test
 combine1<- rbind(xtrain, xtest)
 
 combine2<- rbind(ytrain, ytest)
